@@ -122,7 +122,7 @@ export class OnlinePaymentBuilder extends PaymentSystem {
 
 	validate(input:{[info:string]:string;}): boolean {
 		return /^[\w@.]+$/.test(input.email) &&
-         /\w+/.test(input.paymentPassword);
+         /\w+/.test(input.paymentPassword); 
 	}
 
 }
